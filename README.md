@@ -45,13 +45,13 @@ SAVE_PATH = f'./{TICKER}_seasonality_chart.png'
 ### IDX COMPOSITE Index
 ![](./^JKSE_seasonality_chart.png)
 
+
+### US Dollar Index
+![](./^NYICDX_seasonality_chart.png)
+
 ---
 
 ## Related Project
 [Monthly Seasonality Trading Strategy Backtest](https://github.com/handiko/Monthly-Seasonality-Trading-Strategy-Backtest/blob/main/README.md)
-
-
-### US Dollar Index
-![](./^NYICDX_seasonality_chart.png)
 
 ---
