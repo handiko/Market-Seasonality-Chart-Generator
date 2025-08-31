@@ -2,10 +2,10 @@
 Generating "Market Seasonality" Chart for Any Market listed on Yahoo Finance.
 
 ## Background
-Sometimes, we need some kind of "hint" or historical average return for the month. This could be used for further analysis or creating a seasonal trading/investing strategy. By creating the chart ourselves, we could understand the mechanics of how the chart is calculated, and we can tweak or adjust the historical length to our needs.
+For effective analysis and the development of seasonal trading strategies, it is often necessary to have a historical average return for the month. By independently generating this data, we gain a deeper understanding of the underlying mechanics, which allows us to customize the historical period to suit our specific analytical or strategic requirements.
 
 ## How The Chart is Calculated
-The chart is basically a cumulative average return chart. The chart describes the average daily return for each unique day of the year for the last 10 years. The average daily return was then accumulated and plotted into a chart. That's it! That's simple!
+This is a cumulative average return chart. It's calculated by first finding the average daily return for each specific day of the year over the last decade. These daily averages are then accumulated to create the plotted line. That's it! That's simple!
 
 Code : [here](https://github.com/handiko/Market-Seasonality-Chart-Generator/blob/main/JupyterNotebook/Market%20Seasonality.ipynb)
 
