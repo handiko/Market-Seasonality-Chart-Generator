@@ -31,7 +31,7 @@ Code : [here](https://github.com/handiko/Market-Seasonality-Chart-Generator/blob
 ![](./BTC-USD_seasonality_chart.png)
 
 
-### Jakarta Stock Exchange COMPOSITE Index
+### IDX COMPOSITE Index
 ![](./^JKSE_seasonality_chart.png)
 
 
