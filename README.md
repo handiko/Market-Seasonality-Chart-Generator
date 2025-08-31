@@ -9,6 +9,17 @@ This is a cumulative average return chart. It's calculated by first finding the 
 
 Code : [here](https://github.com/handiko/Market-Seasonality-Chart-Generator/blob/main/JupyterNotebook/Market%20Seasonality.ipynb)
 
+## How to Use
+Simply define the ticker symbol (Yahoo Finance ticker consensus), the start-end dates, and the file-saving path:
+```python
+# Define the forex pair and the date range for the analysis
+# Note: 'EURUSD=X' is a common Yahoo Finance ticker for the EUR/USD pair.
+TICKER = '^VIX'
+START_DATE = '2015-01-01'
+END_DATE = '2025-01-01'
+SAVE_PATH = f'./{TICKER}_seasonality_chart.png'
+```
+
 ---
 ## Examples
 ### Nasdaq Futures
