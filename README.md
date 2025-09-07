@@ -22,6 +22,14 @@ SAVE_PATH = f'./{TICKER}_seasonality_chart.png'
 
 ---
 ## Examples
+### S&P 500 Index
+![](./^GSPC_seasonality_chart.png)
+
+
+### Russell 200 Index
+![](./^RUT_seasonality_chart.png)
+
+
 ### Nasdaq Futures
 ![](./NQ=F_seasonality_chart.png)
 
@@ -45,9 +53,6 @@ SAVE_PATH = f'./{TICKER}_seasonality_chart.png'
 ### IDX COMPOSITE Index
 ![](./^JKSE_seasonality_chart.png)
 
-
-### US Dollar Index
-![](./^NYICDX_seasonality_chart.png)
 
 ---
 
