@@ -10,8 +10,8 @@ This is a cumulative average return chart. It's calculated by first finding the 
 Code : [here](https://github.com/handiko/Market-Seasonality-Chart-Generator/blob/main/PythonScript/market_seasonality.py)
 
 ## How to Use
-Simply pass the ticker symbol (Yahoo Finance ticker consensus) and duration as the arguments:
-```python
+Pass the ticker symbol (Yahoo Finance ticker consensus) and duration as the arguments:
+```bash
 python market_seasonality.py --ticker AAPL --years 10
 ```
 
