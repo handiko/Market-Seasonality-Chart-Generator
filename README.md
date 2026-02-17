@@ -14,9 +14,11 @@ Simply define the ticker symbol (Yahoo Finance ticker consensus), the start-end 
 ```python
 # Define the forex pair and the date range for the analysis
 # Note: 'EURUSD=X' is a common Yahoo Finance ticker for the EUR/USD pair.
-TICKER = '^VIX'
-START_DATE = '2015-01-01'
-END_DATE = '2025-01-01'
+TICKER = '^GSPC'
+N_YEARS = 10
+
+...
+
 SAVE_PATH = f'./{TICKER}_seasonality_chart.png'
 ```
 
