@@ -7,19 +7,12 @@ For effective analysis and the development of seasonal trading strategies, it is
 ## How The Chart is Calculated
 This is a cumulative average return chart. It's calculated by first finding the average daily return for each specific day of the year over the last decade. These daily averages are then accumulated to create the plotted line. That's it! That's simple!
 
-Code : [here](https://github.com/handiko/Market-Seasonality-Chart-Generator/blob/main/JupyterNotebook/Market%20Seasonality.ipynb)
+Code : [here](https://github.com/handiko/Market-Seasonality-Chart-Generator/blob/main/PythonScript/market_seasonality.py)
 
 ## How to Use
-Simply define the ticker symbol (Yahoo Finance ticker consensus), the start-end dates, and the file-saving path:
+Simply pass the ticker symbol (Yahoo Finance ticker consensus) and duration as the arguments:
 ```python
-# Define the forex pair and the date range for the analysis
-# Note: 'EURUSD=X' is a common Yahoo Finance ticker for the EUR/USD pair.
-TICKER = '^GSPC'
-N_YEARS = 10
-
-...
-
-SAVE_PATH = f'./{TICKER}_seasonality_chart.png'
+python market_seasonality.py --ticker AAPL --years 10
 ```
 
 ---
